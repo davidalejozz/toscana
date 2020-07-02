@@ -1,3 +1,41 @@
+body{
+	overflow-x: hidden; 
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+	padding: 0 7rem;
+	position: fixed;
+	z-index: 900;
+	width: 100%;
+	background-image:  url('../imagen/navbar.jpg')
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	margin: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	width: 123px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0rem;
+  margin: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #8da7a5;
+}
 .cuadrado{
 	background: #205250;
 	position: absolute;
@@ -180,8 +218,8 @@
 }
 
 .input textarea{
-  width: 255px;
-  height: 40px;
+  width: 380px;
+  height: 80px;
   background-color: #ffffff;
   list-style: none;
   outline: none;
@@ -191,3 +229,124 @@
 
 }
 
+.main-vive{
+	display: flex;
+	justify-content: space-between;
+}
+
+.text-vive{
+	padding: 4rem;
+	padding-top: 10rem;
+}
+
+.text-vive h3 {
+  width: 422px;
+  height: 49px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.41px;
+  color: #585e59;
+  text-transform: uppercase;
+  margin: 4rem;
+  position: absolute;
+}
+
+ .numero{
+  width: 164px;
+  height: 183px;
+  opacity: 0.16;
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.72px;
+  color: #585e59;
+  list-style: none;
+}  
+
+.vive-imagen{
+	margin-top: 4rem;
+}
+.cerca-de-todo h4{
+  width: 716px;
+  height: 55px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: 0.05px;
+  color: #2d2d2d;
+}
+
+.cerca-de-todo p{
+  width: 716px;
+  height: 96px;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: 0.05px;
+  color: #2d2d2d;
+}
+
+.line{
+  width: 106px;
+  height: 9px;
+  background-color: #205250;
+  margin-top: 3rem;
+}
+
+/* .line-viva{ */
+  width: 280px;
+  height: 49px;
+  background-color: #ffffff
+}
+
+.imagen-estamos-cerca{
+	padding-top: 2rem;
+}
+
+.imagen-estamos-cerca img{
+	position: absolute;
+	margin-top: 3rem;
+} 
+
+.estamos-cerca h4{
+  width: 444px;
+  height: 49px;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.41px;
+  position: absolute;
+  margin: 4rem;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.numero2{
+  width: 193px;
+  height: 183px;
+  opacity: 0.16;
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.72px;
+  /* color: #ffffff; */
+}
