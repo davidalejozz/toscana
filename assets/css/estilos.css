@@ -188,6 +188,14 @@
 }
 
 
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../iconos/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../iconos/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../iconos/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../iconos/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../iconos/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../iconos/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 
 
@@ -226,10 +234,17 @@ body{
   text-align: center;
   color: #ffffff;
   text-transform: uppercase;
-  padding: 0;
-  margin: -5px;
+  padding: 6px;
+  margin: -3px;
 }
 
+.redes{
+  padding-left: 8rem;
+}
+
+.redes img{
+  margin-left: 11px;
+}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
 	color: #8da7a5;
 }
@@ -379,7 +394,7 @@ body{
 .barra{
 	background: #205250;
 	width: 100%;
-	height: 300px;
+	height: 245px;
 }
 .main-barra{
 	display: -webkit-box;
@@ -421,7 +436,7 @@ body{
   outline: none;
   border: none;
   padding: 1rem;
-  margin: 1rem;
+  margin: 8px;
 }
 
 .input textarea{
@@ -432,7 +447,57 @@ body{
   outline: none;
   border: none;
   padding: 1rem;
-  margin: 1rem;
+  margin: 8px;
+
+}
+
+.cuadrito1 {
+  width: 17px;
+  height: 17px;
+  background-color: #ffffff;
+  margin-left: 1rem;
+}
+
+.politica{
+  display: flex;
+  margin: -7px;
+}
+
+.politica p{
+  margin-left: 7px;
+  width: 173px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.03px;
+  color: #ffffff;
+}
+
+.enviar {
+  width: 255px;
+  height: 40px;
+  border: solid 1px #ffffff;
+  margin-left: 9px;
+}
+
+.enviar p{
+  width: 170px;
+  height: 22px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.62px;
+  text-align: center;
+  color: #ffffff;
+  margin: 8px;
+  margin-left: 40px;
 
 }
 
@@ -498,7 +563,7 @@ body{
   font-style: normal;
   line-height: 1.39;
   letter-spacing: 0.05px;
-  color: #2d2d2d;
+  color: #585e59;
 }
 
 .cerca-de-todo p{
@@ -886,4 +951,30 @@ body{
   border: solid 1px #ffffff;
   background-color: rgba(255, 255, 255, 0.04);
   margin: 1rem;
+}
+
+.cuadrito{
+  width: 12px;
+  height: 12px;
+  border: solid 1px #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.text-estamos-cerca i{
+  font-family:
+}
+
+.habilidades-ultimas{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.habilidades-parte-ultima{
+  padding: 4rem;
+}
+
+.habilidad-parte-ultima span{
+  display: block;
+  font-weight: 300;
 }
