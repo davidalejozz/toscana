@@ -958,6 +958,21 @@ body{
   height: 12px;
   border: solid 1px #ffffff;
   background-color: rgba(255, 255, 255, 0.12);
+  margin-left: 1rem;
+}
+
+.cuadrito p{
+  width: 174px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  color: #ffffff;
+  margin-left: 19px;
 }
 
 .text-estamos-cerca i{
@@ -977,4 +992,409 @@ body{
 .habilidad-parte-ultima span{
   display: block;
   font-weight: 300;
+}
+
+@media (min-width: 0px) and (max-width: 767px){
+
+  .navbar.navbar-expand-lg.navbar-light.bg-light{
+    width: 100vw;
+    padding: 0px 34px
+  }
+
+  .imagen-banner img{
+    width: 100%;
+  }
+
+  .cuadrado{
+    width: 120px;
+    height: 140px;
+    margin: 5rem;
+    margin-left: 1rem;
+    padding-top: 3px;
+  }
+
+  .conectate h1{
+    padding: 7px;
+    font-size: 10px;
+  }
+
+  .con-tus{
+    font-size: 9px;
+    letter-spacing: -0.33px;
+    margin-left: 13px;
+    margin-top: -34px;
+  }
+
+  .con-tus .text-style-1{
+    width: 0;
+    font-size: 9px;
+    letter-spacing: -0.33px;
+  }
+
+  .observa{
+    font-size: 5px;
+    letter-spacing: 2px;
+    margin-left: -97px;
+    padding-top: 0rem;
+  }
+
+  .respira{
+    font-size: 5px;
+    letter-spacing: 2px;
+    margin-left: -97px;
+    padding-top: 0rem;    
+  }
+
+  .siente{
+    font-size: 4px;
+    letter-spacing: 2px;
+    margin-left: -120px;
+    padding-top: 0rem;  
+    height: 14px;  
+  }
+
+  .m{
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-left: -120px;
+    padding-top: 0rem;    
+  }
+
+  .desde{
+    font-size: 5px;
+    letter-spacing: 2px;
+    margin-left: -120px;
+    padding-top: 0rem;
+    margin-top: -7px; 
+  }
+
+  .barra{
+    height: 249px;
+  }
+
+  .main-barra{
+    display: block;
+  }
+
+  .barra-text{
+    padding: 3rem;
+    padding-top: 3px;
+  }
+
+  .barra-text h2{
+    font-size: 16px;   
+  }
+
+  .barra-text p{
+    font-size: 12px;
+    margin-top: -6px;
+  }
+
+  .inputs{
+    margin-top: -5rem;
+  }
+
+  .input{
+    display: block;
+  }
+
+  .input input {
+    width: 182px;
+    height: 14px;
+    margin-top: -54px;
+    padding: 11px;
+    margin: 3px;
+    margin-left: 16px;
+  }
+
+  .input textarea {
+    width: 182px;
+    height: 45px;
+    padding: 8px;
+    margin: 3px;
+    margin-left: 16px;
+  }
+
+  .cuadrito1{
+    margin-left: 23px;
+  }
+
+  .politica p{
+    font-size: 11px;
+  }
+
+  .enviar {
+    width: 182px;
+    height: 24px;
+    margin-left: 16px;
+  }
+
+  .enviar p{
+    font-size: 15px;
+    margin: 2px;
+    margin-left: 7px;
+  }
+
+  .main-vive{
+    display: block;
+  }
+
+  .text-vive {
+    padding: 1rem;
+    padding-top: 1rem;
+  }
+
+  .text-vive h3{
+    font-size: 20px;
+    margin: 53px;
+    width: 223px;
+    height: 22px;
+  }
+
+  .numero{
+    font-size: 116px;
+  }
+
+  .cerca-de-todo h4{
+    font-size: 20px;
+    height: 35px;   
+  }
+
+  .cerca-de-todo p{
+    width: 266px;
+    height: 96px;
+    font-size: 15px;
+  }
+
+  .vive-imagen img{
+    width: 100%;
+  }
+
+  .text-estamos-cerca{
+    padding-left: 8rem;
+    padding-top: 30px;
+  }
+
+  .estamos-cerca h4 {
+    width: 160px;
+    height: 18px;    
+    font-size: 13px;
+    margin: 40px;
+    margin-left: 28px;
+  }
+
+  .numero2{
+    font-size: 83px;
+  }
+  
+  .imagen-ubicacion {
+    width: 40%;
+  }
+
+  .imagen-estamos-cerca img {
+    padding-top: 2rem;
+    width: 100%;
+    height: 19vh;
+  }
+  
+  .text-video p {
+    margin: 55px;
+    margin-left: 95px;
+    font-size: 17px;
+  }
+
+  .play img {
+    margin: 75px;
+    margin-left: 150px;
+    width: 20px;
+  }
+
+  .video-toscana img{
+    width: 100%;
+  }
+
+  .imagen-otros{
+    display: block;
+  }
+
+  .imagen img{
+    width: 100%;
+  }
+
+  .logo-prato {
+    width: 57px;
+    margin-top: 5px;
+  }
+
+  .habilidades-otros {
+    width: 100%;
+    height: 128px;
+    margin-top: -128px;
+  }
+
+  .prato-apartamento {
+    height: 27px;
+    font-size: 11px;
+  }
+
+  .prato-apartamento .text-style-1 {
+    font-size: 9px;
+  }
+
+  .Livorno-APARTAMENTOS {
+    height: 31px;
+    font-size: 11px;
+  }
+
+  .Livorno-APARTAMENTOS .text-style-1 {
+    font-size: 9px;
+  }
+
+  .area-70-m-hasta-87 {
+    height: 28px;
+    font-size: 11px;
+  }
+
+  .area-70-m-hasta-87 .text-style-1 {
+    font-size: 10px;
+  }
+  
+  .Desde-323601608-V {
+    font-size: 11px;
+  }
+
+  .Desde-323601608-V .text-style-1 {
+    font-size: 13px;
+  }
+
+  .Desde-323601608-V .text-style-2 {
+    font-size: 9px;
+  }
+  
+  .rectangle {
+    width: 117px;
+    height: 30px;
+    margin-left: -156px;
+    margin-top: 93px;
+  }
+
+  .text-rectangle{
+    font-size: 9px;
+    margin: 10px;
+  }
+
+  .text-ubicacion2{
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .imagen2 img{
+    width: 100%;
+    height: 27px;
+  }
+
+  .imagen-ubicacion2 img {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .imagen-ubicaion-logo img {
+    margin-top: -13rem;
+    margin-left: 5px;
+    width: 70px;
+  }
+
+  .texto-ubicacion{
+    font-size: 13px;
+    padding: 2rem;
+    margin-left: 0rem;
+  }
+
+  .contactos {
+    display: block;
+  }
+
+  .habilidad-contacto {
+    width: 98px;
+    height: 25px;
+    font-size: 8px;
+  }
+
+  .img img{
+    width: 100%;
+    height: 45vh;
+  }
+
+  .descricion {
+    padding: 0;
+  }
+
+  .text-descripcion {
+    width: 230px;
+    height: 21px;
+    font-size: 18px;
+    margin: 23px;
+  }
+
+  .numero6 {
+    height: 58px;
+    font-size: 57px;
+  }
+
+  .cuadrado-contacto {
+    width: 239px;
+    height: 176px;
+    margin-top: 108px;
+    margin-left: 0;
+  }
+
+  .input-cuadrado{
+    margin-top: 10px;
+  }
+
+  .input-contacto input {
+    width: 108px;
+    font-size: 9px;
+    height: 21px;
+    margin: 4px;
+  }
+
+  .inputs-contacto input {
+    width: 227px;
+    height: 21px;
+    margin: 4px;
+  }
+  
+  .cuadrito {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+  }
+
+  .cuadrito p{
+    font-size: 9px;
+  }
+
+  .imagen-parte-ultima img{
+    width: 100%;
+    height: 17vh;
+  }
+
+  .habilidad-parte-ultima{
+    font-size: 7px;
+    width: 97px;
+  }
+
+  .habilidad-parte-ultima p{
+    margin-bottom: 0;
+  }
+
+  .habilidades-parte-ultima{
+    padding: 10px;
+  }
+
+  .habilidades-parte-ultima img{
+    width: 60px;
+  }
+
 }
